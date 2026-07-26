@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+}
+
+#container {
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Suchleiste */
+.search-box input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Buttons für Lieblingswebsites */
+.websites {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.website-button {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.website-button:hover {
+  background-color: #f0f0f0;
+}
+
+.website-button img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
