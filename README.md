@@ -1,6 +1,6 @@
 # start
 
-Eine Startseite für Browser
+Eine konfigurierbare Startseite für den Browser.
 
 ---
 
