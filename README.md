@@ -4,7 +4,7 @@ Eine Startseite für Browser
 
 ---
 
-In vielen Browsern läßt sich eine eigene Startseite bestimmen. – Diese Startseite kann an den eigenen Geschmack angepasst werden.
+In vielen Browsern lässt sich eine eigene Startseite bestimmen. – Diese Startseite kann an den eigenen Geschmack angepasst werden.
 
 ### URL für Startseite: ###
 
