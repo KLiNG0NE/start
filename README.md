@@ -30,8 +30,6 @@ Mit dieser Einstellung wird ein zufälliges Bild mit der Aufklösung 1920 x 10
 
 ``https://picsum.photos/[Breite]/[Höhe]`` – Breite/Höhe in Pixel
 
-https://picsum.photos/
-
 #### Favoriten ####
 
 Favoriten werden im Format ``Name | URL`` angegeben. – Ein Eintrag pro Zeile.
