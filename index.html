@@ -1,20 +1,64 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Startseite</title>
-<link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container" id="container">
-  <div class="search-box">
-    <form action="https://www.google.com/search" method="GET" target="_blank">
-      <input type="text" name="q" placeholder="Suche..." />
-    </form>
-  </div>
-  <div class="websites" id="websites"></div>
-</div>
-<script src="script.js"></script>
+
+    <!-- Hintergrundbild Container -->
+    <div id="bg-container"></div>
+
+    <!-- Hauptinhalt -->
+    <main id="content">
+        <!-- Uhr (Optional, aber schön für eine Startseite) -->
+        <div id="clock"></div>
+        <!--Wetter -->
+        <div id="weather">Wetter wird geladen …</div>
+        <!-- Suchleiste -->
+        <form id="search-form" autocomplete="off">
+            <input type="text" id="search-input" placeholder="Suche …" required>
+            <button type="submit">Suchen</button>
+        </form>
+
+        <!-- Button-Grid für Lieblingswebsites -->
+        <div id="links-grid"></div>
+    </main>
+
+    <!-- Einstellungs-Button (Zahnrad) -->
+    <button id="settings-btn" title="Einstellungen">⚙️</button>
+
+    <!-- Einstellungs-Fenster (Modal) -->
+    <div id="settings-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Einstellungen</h2>
+            
+            <div class="setting-group">
+                <label>Hintergrundbild (URL):</label>
+                <input type="text" id="bg-url-input" placeholder="https://picsum.photos/1920/1080">
+                <small>Oder wähle eine lokale Datei (Achtung: Sehr große Bilder (>5 MB) überschreiten das Speicherlimit):</small>
+                <input type="file" id="bg-file-input" accept="image/*">
+            </div>
+
+            <div class="setting-group">
+                <label>Suchmaschine (URL mit %s als Platzhalter für den Suchbegriff):</label>
+                <input type="text" id="se-input" placeholder="https://www.google.com/search?q=%s">
+            </div>
+
+            <div class="setting-group">
+                <label>Meine Links (Pro Zeile: Name | URL):</label>
+                <textarea id="links-input" rows="8" placeholder="GitHub | https://github.com
+YouTube | https://youtube.com
+Reddit | https://reddit.com"></textarea>
+            </div>
+
+            <button id="save-btn">Speichern</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
