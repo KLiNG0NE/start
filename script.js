@@ -124,7 +124,7 @@ async function fetchWeather() {
     try {
         // Open-Meteo API (Kostenlos, Keine Key, CORS-Freundlich)
         // Standard-Lage: Berlin. Du kannst die Koordinaten anpassen oder IP-Location nutzen.
-        const url = 'https://api.open-meteo.com/v1/forecast?latitude=9.9846&longitude=13.4&current=temperature_2m,weathercode,wind_speed_10m';
+        const url = 'https://api.open-meteo.com/v1/forecast?latitude=54.066&longitude=9.987&current=temperature_2m,weathercode,wind_speed_10m';
 
         const response = await fetch(url);
         if (!response.ok) {
