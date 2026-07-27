@@ -4,6 +4,10 @@ Eine konfigurierbare Startseite für den Browser.
 
 ---
 
+## Screenshot ##
+
+ ![image](screenshot.png)
+
 In vielen Browsern lässt sich eine eigene Startseite bestimmen. – Diese Startseite kann an den eigenen Geschmack angepasst werden.
 
 ### URL für Startseite: ###
