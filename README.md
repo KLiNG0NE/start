@@ -6,7 +6,7 @@ Eine konfigurierbare Startseite für den Browser.
 
 ## Screenshot ##
 
- ![image](screenshot.png)
+ ![Screenshot](screenshot.jpg)
 
 In vielen Browsern lässt sich eine eigene Startseite bestimmen. – Diese Startseite kann an den eigenen Geschmack angepasst werden.
 
